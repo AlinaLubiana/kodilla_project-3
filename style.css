@@ -14,6 +14,14 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.carousel-caption {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+}
 
 .card img {
     width: 100%;
