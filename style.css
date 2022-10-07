@@ -30,8 +30,11 @@ body {
 }
 .bg-gradient {
     background: #eff2f5;
-}
 
+}
+.container .bg-gradient {
+    margin: none;
+    }
 .social-media ul {
     list-style-type:none;
     display: flex;
@@ -44,3 +47,7 @@ body {
 .social-media-color {
     color: black;
 }
+
+footer {
+    background: #c0ccd8;
+    }
